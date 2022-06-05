@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JavaScript DOM</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">Ben OpenBook</h1>
+          <form id="search-books">
+            <input type="text" placeholder="Search books ..." />
+          </form>
+        </div>
+      </header>
+
+      <div id="book-list">
+        <h2 class="title">کتاب های اخیر</h2>
+        <div class="clear"></div>
+        <ul>
+          <li>
+            <span class="name">ارباب حلقه ها</span>
+            <span class="delete">حذف</span>
+          </li>
+          <li>
+            <span class="name">سووشون</span>
+            <span class="delete">حذف</span>
+          </li>
+          <li>
+            <span class="name">دنیای سوفی</span>
+            <span class="delete">حذف</span>
+          </li>
+          <li>
+            <span class="name">قلعه حیوانات</span>
+            <span class="delete">حذف</span>
+          </li>
+          <li>
+            <span class="name">هری پاتر و فرزند نفرین شده</span>
+            <span class="delete">حذف</span>
+          </li>
+          <li>
+            <span class="name">جنایت و مکافات</span>
+            <span class="delete">حذف</span>
+          </li>
+        </ul>
+      </div>
+      <form id="hide">
+        <label>مخفی کردن کتاب ها</label>
+        <input type="checkbox" />
+      </form>
+      <div class="clear"></div>
+      <form id="add-book">
+        <input type="text" placeholder="Add a book..." />
+        <button class="button">اضافه</button>
+      </form>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>

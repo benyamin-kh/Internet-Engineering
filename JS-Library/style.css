@@ -1,0 +1,148 @@
+/* body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #444;
+  letter-spacing: 1px;
+} */
+.clear {
+  clear: both;
+}
+#book-list h1 {
+  float: right;
+}
+h1,
+h2 {
+  font-weight: normal;
+}
+#container {
+  width: 90%;
+  max-width: 960;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0px 1 px 6 px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1 px solid lightgray;
+}
+#page-banner {
+  background: #eee;
+  padding: 10px 0;
+}
+
+#page-banner h1,
+#page-banner p {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#page-banner input {
+  width: 80%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  padding: 8px;
+  border-radius: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #444;
+}
+
+#book-list,
+#add-book,
+#tabbed-content {
+  margin: 30px;
+}
+
+#book-list h2 {
+  float: right;
+  margin-right: 15px;
+}
+
+#book-list ul,
+#tabbed-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+#book-list li {
+  padding: 20px;
+  border-right: 5px solid #ddd;
+  margin: 20px 10px;
+}
+#book-list: hover {
+  border-color: #9373cf;
+}
+
+.delete {
+  float: left;
+  background-color: #9373cf;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.name {
+  float: right;
+}
+
+.delete:hover {
+  background: #333;
+}
+#add-book {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-book input {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4 px 0 0 4px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+}
+
+#add-book .button {
+  border: 2px solid #9373cf;
+  background: #9373cf;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 20px 0;
+  border-left: 0;
+  color: white;
+}
+
+#add-book .button :hover {
+  background: red;
+}
+
+#add-book:afer {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#hide {
+  float: right;
+  padding: 20px 35px 20px 0;
+}
+
+#hide label {
+  padding: 0 10px;
+}
+
+#add-book #hide {
+  width: 30px;
+}
+/* .name {
+  color: white;
+} */
