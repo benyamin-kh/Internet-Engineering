@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content ="7">
+    <link
+  rel="icon"
+  type="image/png"
+  href="https://cdn.quera.ir/images/logo/favicon/favicon-32x32.0-b5be5ba884c5.png"
+    />
+  </head>
+     <body dir="rtl"> 
+       <form action="http://localhost:8080/vote" method="post"> 
+         <label for="name">نام</label><br /> 
+         <input type="text" id="name" name="name" required /> <br>
+         <label for="email">ایمیل</label><br /> 
+         <input type="email" id="email" name="email" required /> <br><br>
+         
+
+         <span>از چه سرویس‌هایی استفاده کردید؟</span> 
+         <input type="checkbox" id="sauna" name="services" value="sauna" >
+         <label for="sauna">سونا</label> 
+         <input type="checkbox" id="jacuzzi" name="services" value="jacuzzi" >
+         <label for="jacuzzi">جکوزی</label> 
+         <input type="checkbox" id="pool" name="services" value="pool" >
+         <label for="pool">استخر</label> 
+         <br /><br /> 
+  
+         <span>آیا از کیفیت سرویس ارائه شده راضی بودید؟</span> 
+         <input type="radio" id="yes" value="yes" name="satisfaction" >
+         <label for="yes">بله</label> 
+         <input type="radio" id="no" value="no" name="satisfaction" >
+         <label for="no">خیر</label><br /><br /> 
+         <input list="branch" name="branch" placeholder="انتخاب شعبه" />
+         <datalist id="branch">
+             <option value="1"></option>
+             <option value="2"></option>
+             <option value="3"></option>
+             <option value="4"></option>
+         </datalist><br><br>
+         <label for="score">امتیاز</label><br /> 
+         <input type="number" id="score" name="score" max="5" min="4" required />
+  
+         <br /><br /> 
+         <input type="submit" value="ثبت"/>
+       </form> 
+     </body> 
+</html>
